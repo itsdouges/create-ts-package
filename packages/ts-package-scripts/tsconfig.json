@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "outDir": "./dist",
+    "outDir": ".",
     "module": "commonjs",
     "target": "es5",
     "declaration": true,
@@ -11,7 +11,7 @@
     ],
     "jsx": "react",
     "moduleResolution": "node",
-    "rootDir": "./src",
+    "rootDir": ".",
     "forceConsistentCasingInFileNames": true,
     "noImplicitReturns": true,
     "noImplicitThis": true,
@@ -22,11 +22,5 @@
     "noUnusedLocals": true,
     "pretty": true,
     "noUnusedParameters": true
-  },
-  "include": [
-    "src/**/*"
-  ],
-  "exclude": [
-    "**/*.test.tsx"
-  ]
+  }
 }
